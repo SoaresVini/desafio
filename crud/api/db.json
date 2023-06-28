@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pedro",
+      "age": 18,
+      "birthday": "20/08/05",
+      "phoneNumber": "(47) 98847-0736",
+      "address": "Rua x"
+    },
+    {
+      "id": 2,
+      "name": "Paulo",
+      "age": 19,
+      "birthday": "21/08/04",
+      "phoneNumber": "(47) 988606896",
+      "address": "Rua y"
+    },
+    {
+      "name": "Vinicius Soares",
+      "age": "",
+      "birthday": "2023-06-15",
+      "phoneNumber": "74586986",
+      "address": "185 Rua Rússia",
+      "id": 3
+    },
+    {
+      "name": "Vinicius Soares",
+      "age": 10,
+      "birthday": "2023-06-07",
+      "phoneNumber": "pçpoçpoçpoç",
+      "address": "185 Rua Rússia",
+      "id": 4
+    }
+  ]
+}
