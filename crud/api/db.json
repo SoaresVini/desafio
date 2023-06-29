@@ -2,35 +2,107 @@
   "users": [
     {
       "id": 1,
-      "name": "Pedro",
+      "name": "Pedu",
       "age": 18,
-      "birthday": "20/08/05",
+      "birthday": "2023-06-21",
       "phoneNumber": "(47) 98847-0736",
-      "address": "Rua x"
-    },
-    {
-      "id": 2,
-      "name": "Paulo",
-      "age": 19,
-      "birthday": "21/08/04",
-      "phoneNumber": "(47) 988606896",
       "address": "Rua y"
     },
     {
+      "id": 2,
+      "name": "Vini",
+      "age": 13,
+      "birthday": "2010-08-07",
+      "phoneNumber": "452543678478",
+      "address": "185 Rua Rússia"
+    },
+    {
       "name": "Vinicius Soares",
-      "age": "",
-      "birthday": "2023-06-15",
-      "phoneNumber": "74586986",
+      "age": 0,
+      "birthday": "2023-06-19",
+      "phoneNumber": "5678678678",
       "address": "185 Rua Rússia",
       "id": 3
     },
     {
       "name": "Vinicius Soares",
-      "age": 10,
-      "birthday": "2023-06-07",
-      "phoneNumber": "pçpoçpoçpoç",
+      "age": 0,
+      "birthday": "2023-06-06",
+      "phoneNumber": "876786786",
       "address": "185 Rua Rússia",
       "id": 4
+    },
+    {
+      "name": "iuliuluili",
+      "age": 0,
+      "birthday": "2023-06-26",
+      "phoneNumber": "45876786786876",
+      "address": "185 Rua Rússia",
+      "id": 5
+    },
+    {
+      "id": 7,
+      "name": "Sofi",
+      "age": 19,
+      "birthday": "2004-06-13",
+      "phoneNumber": "47698559965",
+      "address": "Rua Antonio Zendron, 699"
+    },
+    {
+      "name": "uyiyiy7i",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "tyiyti",
+      "address": "yityi",
+      "id": 8
+    },
+    {
+      "name": "yiyi",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "yityi",
+      "address": "ytityityi",
+      "id": 9
+    },
+    {
+      "name": "tyityi",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "ytiyti",
+      "address": "yiytityi",
+      "id": 10
+    },
+    {
+      "name": "tyityityi",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "yityiyt",
+      "address": "iyiytityiyi",
+      "id": 11
+    },
+    {
+      "name": "tyityityi",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "yiyity",
+      "address": "tyityityi",
+      "id": 12
+    },
+    {
+      "name": "tyityityi",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "tyityiyti",
+      "address": "tyityiyti",
+      "id": 13
+    },
+    {
+      "name": "ytiyityi",
+      "age": null,
+      "birthday": "",
+      "phoneNumber": "ytityityi",
+      "address": "tyityityiy",
+      "id": 14
     }
   ]
 }
