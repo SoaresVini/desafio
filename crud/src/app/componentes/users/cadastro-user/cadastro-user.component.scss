@@ -1,0 +1,50 @@
+#cad{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #203ED4;
+
+}
+
+form{
+  border: 1px solid black;
+  padding: 30px;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+}
+
+input{
+  margin: 5px 0 10px 0;
+  width: 280px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button{
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #3082EB;
+  background-color: #3082EB;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+
+}
+
+button:hover{
+  border: 1px solid #203ED4;
+  background-color: #203ED4;
+  color: white;
+}
+
+.erro_mensage{
+  color: red;
+}

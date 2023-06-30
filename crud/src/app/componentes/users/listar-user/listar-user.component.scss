@@ -1,0 +1,41 @@
+div{
+  left: 0;
+  top: 100px;
+  bottom: 200px;
+  right: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th, td{
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+th{
+  font-weight: bold;
+}
+
+table :hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+#cad{
+  height: 25px;
+  margin: 10px;
+}
+

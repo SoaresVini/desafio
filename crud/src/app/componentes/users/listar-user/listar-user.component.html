@@ -1,0 +1,25 @@
+<div>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>idade</th>
+      <th>Data de nascimento</th>
+      <th>Telefone</th>
+      <th>Endereço</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let user of listarUser">
+      <td>{{ user.name }}</td>
+      <td>{{ user.age }}</td>
+      <td>{{ user.birthday }}</td>
+      <td>{{ user.phoneNumber }}</td>
+      <td>{{ user.address }}</td>
+      <td>
+        <button routerLink="/atualizarUser/{{user.id}}">Visualizar</button>
+      </td>
+    </tr>
+  </table>
+  <button id="cad" routerLink="/criarUsers">Cadastrar</button>
+</div>
+
+

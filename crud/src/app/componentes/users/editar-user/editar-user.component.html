@@ -1,0 +1,39 @@
+<form [formGroup]="formulario" *ngIf="formulario">
+
+  <div>
+    <label for="">Nome:</label>
+    <input
+      type="text"
+      formControlName="name"
+    >
+  </div>
+
+  <div>
+    <label for="">Data de nacimento:</label>
+    <input
+      type="date"
+      formControlName="birthday"
+      id="data">
+  </div>
+
+  <div>
+    <label for="">Telefone:</label>
+    <input
+      type="text"
+      formControlName="phoneNumber"
+    >
+  </div>
+
+  <div>
+    <label for="">Endereço:</label>
+    <input
+      type="text"
+      formControlName="address"
+    >
+  </div>
+
+  <button (click)="editarUser()">Confirmar</button>
+  <button (click)="deleteUser()">Deletar</button>
+
+</form>
+

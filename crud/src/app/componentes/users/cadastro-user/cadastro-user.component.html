@@ -1,0 +1,54 @@
+<div id="cad">
+  <form [formGroup]="formulario">
+
+    <label for="">Nome:</label>
+    <input
+      type="text"
+      formControlName="name"
+    >
+
+    <div class="erro_mensage" *ngIf="formulario.get('name')?.errors?.['required'] && formulario.get('name')?.touched ">
+      Preencha essa campo para realizar o cadastro!
+    </div>
+
+    <div class="erro_mensage" *ngIf="formulario.get('name')?.errors?.['minlength'] && formulario.get('name')?.touched ">
+      Digite o seu nome completo
+    </div>
+
+
+    <label for="">Data de nacimento:</label>
+    <input
+      type="date"
+      formControlName="birthday"
+      id="data"
+    >
+
+    <div class="erro_mensage" *ngIf="formulario.get('birthday')?.errors?.['required'] && formulario.get('birthday')?.touched ">
+      Preencha essa campo para realizar o cadastro!
+    </div>
+
+    <label for="">Telefone:</label>
+    <input
+      type="text"
+      formControlName="phoneNumber"
+      placeholder="(47) 9 9999-9999"
+    >
+
+    <div class="erro_mensage" *ngIf="formulario.get('phoneNumber')?.errors?.['telefone'] && formulario.get('phoneNumber')?.touched ">
+      Numero preenchido Invalido!!
+    </div>
+
+    <label for="">Endereço:</label>
+    <input
+      type="text"
+      formControlName="address"
+    >
+
+    <div class="erro_mensage" *ngIf="formulario.get('address')?.errors?.['required'] && formulario.get('address')?.touched ">
+      Preencha essa campo para realizar o cadastro!
+    </div>
+
+    <button (click)="criarPensamento()">Cadastrar</button>
+
+  </form>
+</div>
