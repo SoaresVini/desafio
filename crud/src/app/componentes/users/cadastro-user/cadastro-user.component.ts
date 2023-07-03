@@ -20,6 +20,10 @@ export class CadastroUserComponent implements OnInit{
     private formBuilder: FormBuilder
   ){}
 
+  /*
+   const id = this.route.snapshot.paramMap.get('id') testa issso da e se for True ele passa os dados do usuario para o formulario igual no editar, se não foca como tá aqui mesmo
+  */
+
   ngOnInit(): void {
     this.formulario = this.formBuilder.group({
       name:['',[

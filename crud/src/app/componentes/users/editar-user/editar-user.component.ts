@@ -20,6 +20,7 @@ export class EditarUserComponent {
   ){}
 
   ngOnInit(): void {
+
     const id = this.route.snapshot.paramMap.get('id')
     this.service.buscarUser(parseInt(id!)).subscribe((user) => {
       this.formulario = this.formBuilder.group({

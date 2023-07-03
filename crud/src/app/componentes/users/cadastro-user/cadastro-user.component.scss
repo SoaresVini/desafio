@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #203ED4;
+  background-image: linear-gradient(to right, rgb(18, 103, 167), rgb(32, 146, 232));
 
 }
 
@@ -20,6 +20,12 @@ form{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
 }
 
+h1{
+  color:  rgb(18, 103, 167);;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.529);
+}
+
 input{
   margin: 5px 0 10px 0;
   width: 280px;
@@ -32,16 +38,14 @@ button{
   margin-top: 5px;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #3082EB;
-  background-color: #3082EB;
   cursor: pointer;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
-
+  border: none;
+  box-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.529);
+  background-color: rgb(117, 178, 224);
 }
 
 button:hover{
-  border: 1px solid #203ED4;
-  background-color: #203ED4;
+  background-color: rgb(32, 146, 232);
   color: white;
 }
 
