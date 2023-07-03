@@ -1,6 +1,6 @@
 <div id="cad">
   
-  <form [formGroup]="formulario">
+  <form [formGroup]="formulario" *ngIf="formulario">
 
     <h1>Cadastro de Usuarios</h1>
 
@@ -30,7 +30,17 @@
       Preencha essa campo para realizar o cadastro!
     </div>
 
+    <div class="erro_mensage" *ngIf="formulario.get('birthday')?.errors?.['data'] && formulario.get('birthday')?.touched ">
+      Data de nascimento não pode ser maior que a data atual
+    </div>
+
+    <div class="erro_mensage" *ngIf="formulario.get('birthday')?.errors?.['idade'] && formulario.get('birthday')?.touched ">
+      Usuario precisa ter 10 anos ou mais para se cadastrar
+    </div>
+
+
     <label for="">Telefone:</label>
+    <p>DDD liberados: '47', '11', '48','41'</p>
     <input
       type="text"
       formControlName="phoneNumber"
@@ -51,7 +61,7 @@
       Preencha essa campo para realizar o cadastro!
     </div>
 
-    <button (click)="criarPensamento()">Cadastrar</button>
+    <button (click)="usuario()">Cadastrar</button>
 
   </form>
 </div>

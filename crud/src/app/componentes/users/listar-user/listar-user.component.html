@@ -1,6 +1,6 @@
 <div>
   <table>
-    <tr>
+    <tr id="cabecalho">
       <th>Nome</th>
       <th>idade</th>
       <th>Data de nascimento</th>
@@ -15,7 +15,10 @@
       <td>{{ user.phoneNumber }}</td>
       <td>{{ user.address }}</td>
       <td>
-        <button routerLink="/atualizarUser/{{user.id}}">Visualizar</button>
+        <button routerLink="/criarUsers/{{user.id}}">Alterar</button>
+
+        <button (click)="deletarUser( user.id )" >Deletar</button>
+
       </td>
     </tr>
   </table>

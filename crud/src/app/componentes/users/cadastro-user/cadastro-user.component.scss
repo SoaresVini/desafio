@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 900px;
   background-image: linear-gradient(to right, rgb(18, 103, 167), rgb(32, 146, 232));
 
 }
@@ -51,4 +51,12 @@ button:hover{
 
 .erro_mensage{
   color: red;
+}
+
+p{
+  margin: 0;
+  margin-left: 5px;
+  font-size: 12px;
+  color: rgb(32, 146, 232);
+  font-weight: bold;
 }

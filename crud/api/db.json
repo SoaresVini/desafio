@@ -1,76 +1,28 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Pedu",
-      "age": 18,
-      "birthday": "2023-06-21",
-      "phoneNumber": "(47) 98847-0736",
-      "address": "Rua y"
+      "id": 4,
+      "name": "Soares",
+      "age": 19,
+      "birthday": "2004-02-03",
+      "phoneNumber": "47988606896",
+      "address": "defefefe"
     },
     {
-      "id": 2,
-      "name": "Vini",
-      "age": 13,
-      "birthday": "2010-08-07",
-      "phoneNumber": "452543678478",
-      "address": "185 Rua Rússia"
-    },
-    {
-      "name": "Vinicius Soares",
-      "age": 0,
-      "birthday": "2023-06-19",
-      "phoneNumber": "5678678678",
-      "address": "185 Rua Rússia",
-      "id": 3
+      "id": 5,
+      "name": "Vinicus Soares",
+      "age": 19,
+      "birthday": "2004-07-18",
+      "phoneNumber": "47988606896",
+      "address": "dwdwdw"
     },
     {
       "name": "Vinicius Soares",
-      "age": 0,
-      "birthday": "2023-06-06",
-      "phoneNumber": "876786786",
-      "address": "185 Rua Rússia",
-      "id": 4
-    },
-    {
-      "name": "iuliuluili",
-      "age": 0,
-      "birthday": "2023-06-26",
-      "phoneNumber": "45876786786876",
-      "address": "185 Rua Rússia",
-      "id": 5
-    },
-    {
-      "name": "Vinicius Soares",
-      "age": 26,
-      "birthday": "1997-08-31",
-      "phoneNumber": "63986986896",
-      "address": "185 Rua Rússia",
-      "id": 8
-    },
-    {
-      "name": "Vinicius Soares",
-      "age": 1,
-      "birthday": "2022-02-28",
-      "phoneNumber": "8969869866",
-      "address": "185 Rua Rússia",
-      "id": 9
-    },
-    {
-      "name": "Vinicius Soares",
-      "age": 0,
-      "birthday": "2023-06-09",
-      "phoneNumber": "6656.56.56.",
-      "address": "185 Rua Rússia",
-      "id": 10
-    },
-    {
-      "name": "Vinicius Soares",
-      "age": 0,
-      "birthday": "2023-06-14",
-      "phoneNumber": "4567586786",
-      "address": "185 Rua Rússia",
-      "id": 11
+      "age": 19,
+      "birthday": "2004-07-17",
+      "phoneNumber": "47988606896",
+      "address": "deded",
+      "id": 6
     }
   ]
 }

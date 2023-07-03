@@ -28,4 +28,8 @@ buscaUser(): void{
     .subscribe(users => this.listarUser = users )
 }
 
+deletarUser(id: any): void{
+  this.service.deletar(parseInt(id!))
+}
+
 }

@@ -17,6 +17,8 @@ table, th, td {
 table {
   border-collapse: collapse;
   margin: auto;
+  border: 1px solid black;
+
 }
 
 th, td{
@@ -27,11 +29,7 @@ th, td{
 
 th{
   font-weight: bold;
-}
-
-table :hover{
-  background-color: aquamarine;
-  cursor: pointer;
+  background-color: rgb(117, 178, 224);
 }
 
 #cad{
@@ -39,3 +37,17 @@ table :hover{
   margin: 10px;
 }
 
+button{
+  width: 100px;
+  height: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: rgb(117, 178, 224);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(32, 146, 232);
+  color: white;
+}

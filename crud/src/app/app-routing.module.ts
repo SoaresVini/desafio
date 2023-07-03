@@ -3,7 +3,6 @@ import { RouterModule, Routes } from
 '@angular/router';
 import { CadastroUserComponent } from './componentes/users/cadastro-user/cadastro-user.component';
 import { ListarUserComponent } from './componentes/users/listar-user/listar-user.component';
-import { EditarUserComponent } from './componentes/users/editar-user/editar-user.component';
 
 const routes: Routes = [
   {
@@ -20,8 +19,8 @@ const routes: Routes = [
     component: ListarUserComponent
   },
   {
-    path: 'atualizarUser/:id',
-    component: EditarUserComponent
+    path: 'criarUsers/:id',
+    component: CadastroUserComponent
   }
 ];
 
